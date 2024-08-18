@@ -3,7 +3,11 @@
 using namespace std;
 
 int main(){
-	int tamanho = 5;
+	int tamanho;
+
+	cout << "Qual tamanho deseja? ";
+	cin >> tamanho;
+
 	if(tamanho==1){
 		tamanho = 2;
 	}
